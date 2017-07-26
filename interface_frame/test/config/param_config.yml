@@ -1,0 +1,5 @@
+Host: 'http://192.168.0'
+# post_form post_json get_form get_json
+#HttpType: post_form
+# 接口
+test: /tttt

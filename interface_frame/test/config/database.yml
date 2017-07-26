@@ -1,0 +1,8 @@
+mysql:
+  adapter: mysql2
+  host: 192.168.0
+  port: 
+  username:
+  password: 
+  timeout: 
+  encoding: gbk

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="execute_statistics" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="interface_frame" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib/interface_frame" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/interface_frame/execute_statistics.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="autotest" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="interface_frame" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/autotest.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'TC_test': interface_frame" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="interface_frame" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test/case" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/case/TC_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_test2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="interface_frame" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test/case" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/case/TC_test2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.6, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.6, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.6, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.1, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20161129, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.10, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.3, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.9.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.4.4, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.0.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.4.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.4.4, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.4.0, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.4.1, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.4.1, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, ruby-2.2.2-p95) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.2, ruby-2.2.2-p95) [gem]" level="application" />
+  </component>
+</module>

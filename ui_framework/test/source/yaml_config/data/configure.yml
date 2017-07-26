@@ -1,0 +1,14 @@
+#接口服务IP
+api_url: 'http://127.0.0.0:'
+
+#数据库mysql
+mysql: 127.0.0.0
+
+xspt:
+  url: 'http://127.0.0.1//'
+  username: user
+  pwd: pwd
+
+screenshots:
+  switch: on
+  path: ../../pic
